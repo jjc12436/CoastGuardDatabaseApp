@@ -1,0 +1,20 @@
+# Visual Studio caches and build output
+.vs/
+[Bb]in/
+[Oo]bj/
+packages/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+
+# Local secrets and exports; commit only reviewed schema and fictional seed SQL.
+.env
+.env.*
+*.local.sql
+*.local.config
+database/private/
+backups/
+
+# Keep packages.config, .Designer.cs, .resx, .csproj, .sln, and reviewed SQL.
